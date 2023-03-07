@@ -1,0 +1,28 @@
+# Please input data for the SRAM testing in this file
+# The python file will read from this file and write the data to the test chip through the FPGA
+
+# TESTING DATA #
+# Below please enter the test data you'd like to use for D[7:0]:
+00000000
+
+
+# STARTING ADDRESS #
+# Below please enter the start address bits for AS[2:0]:
+000
+
+# Below please enter the start address bits for AC[3:0]:
+0000
+
+# Below please enter the start address bits for AW[7:0]:
+00000000
+
+
+# ENDING ADDRESS #
+# Below please enter the end address bits for AS[2:0]:
+111
+
+# Below please enter the end address bits for AC[3:0]:
+1111
+
+# Below please enter the end address bits for AW[7:0]:
+11111111
