@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar 17 09:59:57 2021
+# Process ID: 14968
+# Current directory: E:/28nm/28nm_change_v1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14960 E:\28nm\28nm_change_v1\DFF_TEST_NEW_TOP_tb_isim_beh.wdb
+# Log file: E:/28nm/28nm_change_v1/vivado.log
+# Journal file: E:/28nm/28nm_change_v1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {E:\28nm\28nm_change_v1\DFF_TEST_NEW_TOP_tb_isim_beh.wdb}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado___/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-2338] Canceling the changes to the IP catalog. Reverting the catalog back to its previous state.
+INFO: [IP_Flow 19-2340] The IP catalog has been returned to its previous state.
+INFO: [Common 17-344] 'current_fileset' was cancelled
+INFO: [Common 17-344] 'open_wave_database' was cancelled
+1
+ERROR: [Common 17-190] Invalid Tcl eval of 'info procs ::sdx::has_new_run' during processing of event '318'.
+INFO: [Common 17-344] 'rdi::open_ppr_or_dcp' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 17 10:00:23 2021...

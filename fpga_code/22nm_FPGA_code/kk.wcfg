@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Yang/Desktop/28nm_change_v1/DFF_TEST_NEW_TOP_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="DFF_TEST_NEW_TOP_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/SOUT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SOUT</obj_property>
+      <obj_property name="ObjectShortName">SOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/comp_out_db" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">comp_out_db</obj_property>
+      <obj_property name="ObjectShortName">comp_out_db</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/sin_db" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sin_db</obj_property>
+      <obj_property name="ObjectShortName">sin_db</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/CLK_100K" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_100K</obj_property>
+      <obj_property name="ObjectShortName">CLK_100K</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/clk_50_db" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_50_db</obj_property>
+      <obj_property name="ObjectShortName">clk_50_db</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/CLK_50M" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_50M</obj_property>
+      <obj_property name="ObjectShortName">CLK_50M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/RST_PER" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RST_PER</obj_property>
+      <obj_property name="ObjectShortName">RST_PER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/DTNT1/CLK_MUXOUT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_MUXOUT</obj_property>
+      <obj_property name="ObjectShortName">CLK_MUXOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/SIN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SIN</obj_property>
+      <obj_property name="ObjectShortName">SIN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[1:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[1:0,7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/clk_num" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_num[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/DTNT1/REGISTER/DAT_FPGA0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DAT_FPGA0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DAT_FPGA0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/DTNT1/REGISTER/DATA_UART[0]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_UART[0,7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/DTNT1/REGISTER/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/DTNT1/UART/F2/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/DTNT1/UART/F2/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/DTNT1/REGISTER/cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/DTNT1/UART/en_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_wr</obj_property>
+      <obj_property name="ObjectShortName">en_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DFF_TEST_NEW_TOP_tb/DTNT1/REGISTER/write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+</wave_config>

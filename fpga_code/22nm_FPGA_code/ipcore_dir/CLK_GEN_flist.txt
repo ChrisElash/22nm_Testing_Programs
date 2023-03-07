@@ -1,0 +1,2 @@
+# Output products list for <CLK_GEN>
+CLK_GEN_flist.txt

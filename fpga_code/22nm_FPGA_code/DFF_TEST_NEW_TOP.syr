@@ -1,0 +1,1420 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> 
+Reading design: DFF_TEST_NEW_TOP.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DFF_TEST_NEW_TOP.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DFF_TEST_NEW_TOP"
+Output Format                      : NGC
+Target Device                      : xc5vlx50-3-ff1153
+
+---- Source Options
+Top Module Name                    : DFF_TEST_NEW_TOP
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "CLK_GEN.v" in library work
+Compiling verilog file "SRAM_DATA_GEN.v" in library work
+Module <CLK_GEN> compiled
+Compiling verilog file "SRAM_DATA_CMPR.v" in library work
+Module <SRAM_DATA_GEN> compiled
+Compiling verilog file "RO_FREQ_COUNTER.v" in library work
+Module <SRAM_DATA_CMPR> compiled
+Compiling verilog file "RO_DATA_OUTPUT.v" in library work
+Module <RO_FREQ_COUNTER> compiled
+Compiling verilog file "LS_CNT.v" in library work
+Module <RO_DATA_OUTPUT> compiled
+Compiling verilog file "DFF_DATA_OUTPUT.v" in library work
+Module <LS_CNT> compiled
+Compiling verilog file "DATA_GEN.v" in library work
+Module <DFF_DATA_OUTPUT> compiled
+Compiling verilog file "CLK_GEN_TOP.v" in library work
+Module <DATA_GEN> compiled
+Compiling verilog file "DFF_TEST_NEW_TOP.v" in library work
+Module <CLK_GEN_TOP> compiled
+Module <DFF_TEST_NEW_TOP> compiled
+No errors in compilation
+Analysis of file <"DFF_TEST_NEW_TOP.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <DFF_TEST_NEW_TOP> in library <work>.
+
+Analyzing hierarchy for module <CLK_GEN_TOP> in library <work>.
+
+Analyzing hierarchy for module <DATA_GEN> in library <work>.
+
+Analyzing hierarchy for module <LS_CNT> in library <work>.
+
+Analyzing hierarchy for module <SRAM_DATA_GEN> in library <work>.
+
+Analyzing hierarchy for module <SRAM_DATA_CMPR> in library <work>.
+
+Analyzing hierarchy for module <RO_FREQ_COUNTER> in library <work>.
+
+Analyzing hierarchy for module <RO_DATA_OUTPUT> in library <work>.
+
+Analyzing hierarchy for module <DFF_DATA_OUTPUT> in library <work>.
+
+Analyzing hierarchy for module <CLK_GEN> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <DFF_TEST_NEW_TOP>.
+Module <DFF_TEST_NEW_TOP> is correct for synthesis.
+ 
+Analyzing module <CLK_GEN_TOP> in library <work>.
+Module <CLK_GEN_TOP> is correct for synthesis.
+ 
+Analyzing module <CLK_GEN> in library <work>.
+Module <CLK_GEN> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN1_IBUFG_INST> in unit <CLK_GEN>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN1_IBUFG_INST> in unit <CLK_GEN>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN1_IBUFG_INST> in unit <CLK_GEN>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN1_IBUFG_INST> in unit <CLK_GEN>.
+    Set user-defined property "BANDWIDTH =  OPTIMIZED" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKFBOUT_DESKEW_ADJUST =  NONE" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKFBOUT_MULT =  8" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKFBOUT_PHASE =  0.000000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKIN1_PERIOD =  20.000000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKIN2_PERIOD =  10.000000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT0_DESKEW_ADJUST =  NONE" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT0_DIVIDE =  100" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT0_DUTY_CYCLE =  0.500000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT0_PHASE =  0.000000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT1_DESKEW_ADJUST =  NONE" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT1_DIVIDE =  4" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT1_DUTY_CYCLE =  0.500000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT1_PHASE =  0.000000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT2_DESKEW_ADJUST =  NONE" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT2_DIVIDE =  40" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT2_DUTY_CYCLE =  0.500000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT2_PHASE =  0.000000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT3_DESKEW_ADJUST =  NONE" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT3_DIVIDE =  1" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT3_DUTY_CYCLE =  0.500000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT3_PHASE =  0.000000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT4_DESKEW_ADJUST =  NONE" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT4_DIVIDE =  8" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT4_DUTY_CYCLE =  0.500000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT4_PHASE =  0.000000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT5_DESKEW_ADJUST =  NONE" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT5_DIVIDE =  1" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT5_DUTY_CYCLE =  0.500000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLKOUT5_PHASE =  0.000000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "CLK_FEEDBACK =  CLKFBOUT" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "COMPENSATION =  SYSTEM_SYNCHRONOUS" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "DIVCLK_DIVIDE =  1" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "EN_REL =  FALSE" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "PLL_PMCD_MODE =  FALSE" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "REF_JITTER =  0.000000" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "RESET_ON_LOSS_OF_LOCK =  FALSE" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "RST_DEASSERT_CLK =  CLKIN1" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+    Set user-defined property "SIM_DEVICE =  VIRTEX5" for instance <PLL_ADV_INST> in unit <CLK_GEN>.
+Analyzing module <DATA_GEN> in library <work>.
+Module <DATA_GEN> is correct for synthesis.
+ 
+Analyzing module <LS_CNT> in library <work>.
+Module <LS_CNT> is correct for synthesis.
+ 
+Analyzing module <SRAM_DATA_GEN> in library <work>.
+Module <SRAM_DATA_GEN> is correct for synthesis.
+ 
+Analyzing module <SRAM_DATA_CMPR> in library <work>.
+Module <SRAM_DATA_CMPR> is correct for synthesis.
+ 
+Analyzing module <RO_FREQ_COUNTER> in library <work>.
+Module <RO_FREQ_COUNTER> is correct for synthesis.
+ 
+Analyzing module <RO_DATA_OUTPUT> in library <work>.
+Module <RO_DATA_OUTPUT> is correct for synthesis.
+ 
+Analyzing module <DFF_DATA_OUTPUT> in library <work>.
+WARNING:Xst:2320 - "DFF_DATA_OUTPUT.v" line 72: Value for signal chain_select in initial block is not constant. The initialization will be ignored.
+Module <DFF_DATA_OUTPUT> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DATA_GEN>.
+    Related source file is "DATA_GEN.v".
+    Found 1-bit register for signal <dat_halfclk>.
+    Found 17-bit up counter for signal <ns_ck_cnt>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <DATA_GEN> synthesized.
+
+
+Synthesizing Unit <LS_CNT>.
+    Related source file is "LS_CNT.v".
+WARNING:Xst:647 - Input <clk_100m> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <comp_in_6> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit up counter for signal <ERR_CNT>.
+    Found 1-bit register for signal <comp_out>.
+    Found 1-bit register for signal <comp_en>.
+    Found 1-bit register for signal <comp_in_1>.
+    Found 1-bit register for signal <comp_in_2>.
+    Found 1-bit register for signal <comp_in_3>.
+    Found 1-bit xor2 for signal <comp_out$xor0000> created at line 107.
+    Found 1-bit register for signal <comp_start1>.
+    Found 1-bit register for signal <crest_sam1>.
+    Found 1-bit register for signal <crest_sam2>.
+    Found 1-bit register for signal <pulse>.
+    Found 1-bit register for signal <pulse_delay>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  10 D-type flip-flop(s).
+Unit <LS_CNT> synthesized.
+
+
+Synthesizing Unit <SRAM_DATA_GEN>.
+    Related source file is "SRAM_DATA_GEN.v".
+    Found 64-bit up counter for signal <data_count>.
+    Found 15-bit register for signal <SRAM_ADDRESS_END>.
+    Found 15-bit register for signal <SRAM_ADDRESS_START>.
+    Found 8-bit register for signal <SRAM_DATA_IN>.
+    Found 15-bit register for signal <sram_address_holder_end>.
+    Found 64-bit comparator greatequal for signal <sram_address_holder_end_14$cmp_ge0000> created at line 139.
+    Found 64-bit comparator lessequal for signal <sram_address_holder_end_14$cmp_le0000> created at line 139.
+    Found 15-bit register for signal <sram_address_holder_start>.
+    Found 64-bit comparator greatequal for signal <sram_address_holder_start_14$cmp_ge0000> created at line 99.
+    Found 64-bit comparator lessequal for signal <sram_address_holder_start_14$cmp_le0000> created at line 99.
+    Found 8-bit register for signal <sram_data_holder>.
+    Found 64-bit comparator lessequal for signal <sram_data_holder_7$cmp_le0000> created at line 67.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  76 D-type flip-flop(s).
+	inferred   5 Comparator(s).
+Unit <SRAM_DATA_GEN> synthesized.
+
+
+Synthesizing Unit <SRAM_DATA_CMPR>.
+    Related source file is "SRAM_DATA_CMPR.v".
+    Found 1-bit register for signal <sram_data_pi>.
+    Found 1-bit register for signal <RDWEN>.
+    Found 1-bit register for signal <error>.
+    Found 15-bit register for signal <SRAM_ADDRESS>.
+    Found 15-bit register for signal <ADDRESS_HOLDER>.
+    Found 8-bit register for signal <DATA_IN_HOLDER>.
+    Found 8-bit register for signal <DATA_OUT_HOLDER>.
+    Found 8-bit comparator not equal for signal <error$cmp_ne0000> created at line 104.
+    Found 1-bit register for signal <internal_error>.
+    Found 8-bit comparator equal for signal <internal_error$cmp_eq0000> created at line 157.
+    Found 15-bit comparator not equal for signal <internal_error$cmp_ne0000> created at line 167.
+    Found 8-bit up counter for signal <output_counter_sram>.
+    Found 15-bit adder for signal <RDWEN$add0000> created at line 163.
+    Found 15-bit comparator less for signal <RDWEN$cmp_lt0000> created at line 163.
+    Found 15-bit addsub for signal <SRAM_ADDRESS$addsub0000>.
+    Found 15-bit comparator equal for signal <SRAM_ADDRESS$cmp_eq0000> created at line 72.
+    Found 64-bit comparator greatequal for signal <SRAM_ADDRESS$cmp_ge0000> created at line 71.
+    Found 16-bit up counter for signal <test_data_counter>.
+    Found 64-bit comparator less for signal <test_data_counter$cmp_lt0000> created at line 132.
+    Found 1-bit register for signal <test_data_written>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  51 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <SRAM_DATA_CMPR> synthesized.
+
+
+Synthesizing Unit <RO_FREQ_COUNTER>.
+    Related source file is "RO_FREQ_COUNTER.v".
+    Found 32-bit up counter for signal <NOR_COUNT>.
+    Found 32-bit up counter for signal <NAND_COUNT>.
+    Found 32-bit up counter for signal <INV_COUNT>.
+    Found 24-bit up counter for signal <clk_counter>.
+    Found 1-bit register for signal <count_enable>.
+    Summary:
+	inferred   4 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <RO_FREQ_COUNTER> synthesized.
+
+
+Synthesizing Unit <RO_DATA_OUTPUT>.
+    Related source file is "RO_DATA_OUTPUT.v".
+    Found 1-bit register for signal <DATA_OUT>.
+    Found 2-bit up counter for signal <C>.
+    Found 8-bit up counter for signal <output_count>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <RO_DATA_OUTPUT> synthesized.
+
+
+Synthesizing Unit <DFF_DATA_OUTPUT>.
+    Related source file is "DFF_DATA_OUTPUT.v".
+    Found 1-bit register for signal <DATA_OUT>.
+    Found 32-bit register for signal <chain_select>.
+    Found 32-bit register for signal <DFF_ERROR_0_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_10_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_11_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_12_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_13_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_1_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_2_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_3_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_4_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_5_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_6_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_7_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_8_SAVE>.
+    Found 32-bit register for signal <DFF_ERROR_9_SAVE>.
+    Found 10-bit register for signal <output_count>.
+    Found 10-bit adder for signal <output_count$addsub0000> created at line 190.
+    Found 8-bit register for signal <output_count_32>.
+    Found 8-bit adder for signal <output_count_32$addsub0000> created at line 191.
+    Summary:
+	inferred 499 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <DFF_DATA_OUTPUT> synthesized.
+
+
+Synthesizing Unit <CLK_GEN>.
+    Related source file is "CLK_GEN.v".
+Unit <CLK_GEN> synthesized.
+
+
+Synthesizing Unit <CLK_GEN_TOP>.
+    Related source file is "CLK_GEN_TOP.v".
+WARNING:Xst:646 - Signal <clk_test_100Hz> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <clk_100k_in>.
+    Found 1-bit register for signal <clk_10k>.
+    Found 1-bit register for signal <clk_1m>.
+    Found 1-bit register for signal <clk_2m>.
+    Found 1-bit register for signal <clk_test_12point5>.
+    Found 1-bit register for signal <clk_test_25k>.
+    Found 1-bit register for signal <clk_test_50k>.
+    Found 1-bit register for signal <clk_test_5k>.
+    Found 9-bit up counter for signal <cnt100Hz>.
+    Found 4-bit up counter for signal <cnt10k>.
+    Found 4-bit up counter for signal <cnt5k>.
+    Found 8-bit up counter for signal <cnt_100k>.
+    Summary:
+	inferred   4 Counter(s).
+	inferred   8 D-type flip-flop(s).
+Unit <CLK_GEN_TOP> synthesized.
+
+
+Synthesizing Unit <DFF_TEST_NEW_TOP>.
+    Related source file is "DFF_TEST_NEW_TOP.v".
+WARNING:Xst:647 - Input <start_uart> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1305 - Output <comp_out_db> is never assigned. Tied to value 0.
+WARNING:Xst:1780 - Signal <write_xmit> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <uart_reset> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out_db> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <en_xmit> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:1780 - Signal <empty_xmit> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <empty_rcv> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <do_fifo_do> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <data_rcv> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <data_fpga> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <data_ex> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <data_db> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ9> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ8> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ7> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ6> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ5> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ4> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ13> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ12> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ11> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ10> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <compout_DFFQ0> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clk_50m_sys> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DAT_CTL> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <CLK_CTRL> is used but never assigned. This sourceless signal will be automatically connected to value 00.
+WARNING:Xst:646 - Signal <CLK_400M> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <DFF_TEST_NEW_TOP> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 10-bit adder                                          : 1
+ 15-bit adder                                          : 1
+ 15-bit addsub                                         : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 27
+ 16-bit up counter                                     : 1
+ 17-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 24-bit up counter                                     : 1
+ 32-bit up counter                                     : 17
+ 4-bit up counter                                      : 2
+ 64-bit up counter                                     : 1
+ 8-bit up counter                                      : 3
+# Registers                                            : 213
+ 1-bit register                                        : 189
+ 10-bit register                                       : 1
+ 15-bit register                                       : 4
+ 32-bit register                                       : 15
+ 8-bit register                                        : 4
+# Comparators                                          : 12
+ 15-bit comparator equal                               : 1
+ 15-bit comparator less                                : 1
+ 15-bit comparator not equal                           : 1
+ 64-bit comparator greatequal                          : 3
+ 64-bit comparator less                                : 1
+ 64-bit comparator lessequal                           : 3
+ 8-bit comparator equal                                : 1
+ 8-bit comparator not equal                            : 1
+# Xors                                                 : 14
+ 1-bit xor2                                            : 14
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 10-bit adder                                          : 1
+ 15-bit adder                                          : 1
+ 15-bit addsub                                         : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 24
+ 16-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 24-bit up counter                                     : 1
+ 32-bit up counter                                     : 17
+ 64-bit up counter                                     : 1
+ 8-bit up counter                                      : 3
+# Registers                                            : 771
+ Flip-Flops                                            : 771
+# Comparators                                          : 12
+ 15-bit comparator equal                               : 1
+ 15-bit comparator less                                : 1
+ 15-bit comparator not equal                           : 1
+ 64-bit comparator greatequal                          : 3
+ 64-bit comparator less                                : 1
+ 64-bit comparator lessequal                           : 3
+ 8-bit comparator equal                                : 1
+ 8-bit comparator not equal                            : 1
+# Xors                                                 : 14
+ 1-bit xor2                                            : 14
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DFF_TEST_NEW_TOP> ...
+
+Optimizing unit <LS_CNT> ...
+
+Optimizing unit <SRAM_DATA_GEN> ...
+
+Optimizing unit <SRAM_DATA_CMPR> ...
+
+Optimizing unit <RO_FREQ_COUNTER> ...
+
+Optimizing unit <RO_DATA_OUTPUT> ...
+
+Optimizing unit <DFF_DATA_OUTPUT> ...
+
+Optimizing unit <CLK_GEN_TOP> ...
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ13/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ12/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ11/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ10/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ9/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ8/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ7/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ6/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ5/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ4/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ3/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ2/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ1/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+WARNING:Xst:2677 - Node <LS_CNT_DFFQ0/crest_sam2> of sequential type is unconnected in block <DFF_TEST_NEW_TOP>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DFF_TEST_NEW_TOP, actual ratio is 7.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1431
+ Flip-Flops                                            : 1431
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DFF_TEST_NEW_TOP.ngr
+Top Level Output File Name         : DFF_TEST_NEW_TOP
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 79
+
+Cell Usage :
+# BELS                             : 2872
+#      GND                         : 1
+#      INV                         : 31
+#      LUT1                        : 661
+#      LUT2                        : 76
+#      LUT3                        : 47
+#      LUT4                        : 75
+#      LUT5                        : 181
+#      LUT6                        : 266
+#      MUXCY                       : 794
+#      MUXF7                       : 38
+#      VCC                         : 1
+#      XORCY                       : 701
+# FlipFlops/Latches                : 1431
+#      FD                          : 526
+#      FDC                         : 93
+#      FDCE                        : 448
+#      FDE                         : 38
+#      FDR                         : 103
+#      FDRE                        : 223
+# Clock Buffers                    : 14
+#      BUFG                        : 6
+#      BUFGP                       : 8
+# IO Buffers                       : 70
+#      IBUF                        : 26
+#      IBUFG                       : 1
+#      OBUF                        : 43
+# Others                           : 1
+#      PLL_ADV                     : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx50ff1153-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1431  out of  28800     4%  
+ Number of Slice LUTs:                 1337  out of  28800     4%  
+    Number used as Logic:              1337  out of  28800     4%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1952
+   Number with an unused Flip Flop:     521  out of   1952    26%  
+   Number with an unused LUT:           615  out of   1952    31%  
+   Number of fully used LUT-FF pairs:   816  out of   1952    41%  
+   Number of unique control sets:        39
+
+IO Utilization: 
+ Number of IOs:                          79
+ Number of bonded IOBs:                  78  out of    560    13%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:               14  out of     32    43%  
+ Number of PLL_ADVs:                      1  out of      6    16%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)   | Load  |
+-----------------------------------+-------------------------+-------+
+CLK_GEN_TOP/clk_1m1                | BUFG                    | 665   |
+data_clk_pi                        | BUFGP                   | 140   |
+sram_data_out_clk_pi               | BUFGP                   | 9     |
+O_NOR                              | BUFGP                   | 32    |
+O_NAND                             | BUFGP                   | 32    |
+O_INV                              | BUFGP                   | 32    |
+data_clk_RO_pi                     | BUFGP                   | 11    |
+data_clk_dff_pi                    | BUFGP                   | 51    |
+save_data_dff_pi                   | BUFGP                   | 448   |
+CLK_GEN_TOP/CLK_GEN/CLKOUT0_BUF    | BUFG                    | 10    |
+CLK_GEN_TOP/clk_2m                 | NONE(CLK_GEN_TOP/clk_1m)| 1     |
+-----------------------------------+-------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------+------------------------------+-------+
+Control Signal                                       | Buffer(FF name)              | Load  |
+-----------------------------------------------------+------------------------------+-------+
+w_rst(w_rst1:O)                                      | NONE(LS_CNT_DFFQ0/ERR_CNT_0) | 532   |
+CLK_GEN_TOP/RST_B_inv(CLK_GEN_TOP/RST_B_inv1_INV_0:O)| NONE(CLK_GEN_TOP/clk_100k_in)| 9     |
+-----------------------------------------------------+------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.296ns (Maximum Frequency: 303.393MHz)
+   Minimum input arrival time before clock: 4.674ns
+   Maximum output required time after clock: 3.309ns
+   Maximum combinational path delay: 3.720ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_GEN_TOP/clk_1m1'
+  Clock period: 3.296ns (frequency: 303.393MHz)
+  Total number of paths / destination ports: 10457 / 1154
+-------------------------------------------------------------------------
+Delay:               3.296ns (Levels of Logic = 17)
+  Source:            SRAM_DATA_CMPR_1/ADDRESS_HOLDER_1 (FF)
+  Destination:       SRAM_DATA_CMPR_1/RDWEN (FF)
+  Source Clock:      CLK_GEN_TOP/clk_1m1 rising
+  Destination Clock: CLK_GEN_TOP/clk_1m1 rising
+
+  Data Path: SRAM_DATA_CMPR_1/ADDRESS_HOLDER_1 to SRAM_DATA_CMPR_1/RDWEN
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.396   0.239  SRAM_DATA_CMPR_1/ADDRESS_HOLDER_1 (SRAM_DATA_CMPR_1/ADDRESS_HOLDER_1)
+     INV:I->O              1   0.212   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_lut<1>_INV_0 (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_lut<1>)
+     MUXCY:S->O            1   0.305   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<1> (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<2> (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<3> (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<4> (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<5> (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<6> (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<7> (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<8> (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<9> (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<10> (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<11> (SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_cy<11>)
+     XORCY:CI->O           3   0.300   0.557  SRAM_DATA_CMPR_1/Madd_RDWEN_add0000_xor<12> (SRAM_DATA_CMPR_1/RDWEN_add0000<12>)
+     LUT4:I1->O            1   0.086   0.000  SRAM_DATA_CMPR_1/Mcompar_RDWEN_cmp_lt0000_lut<6> (SRAM_DATA_CMPR_1/Mcompar_RDWEN_cmp_lt0000_lut<6>)
+     MUXCY:S->O            1   0.305   0.000  SRAM_DATA_CMPR_1/Mcompar_RDWEN_cmp_lt0000_cy<6> (SRAM_DATA_CMPR_1/Mcompar_RDWEN_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.222   0.361  SRAM_DATA_CMPR_1/Mcompar_RDWEN_cmp_lt0000_cy<7> (SRAM_DATA_CMPR_1/Mcompar_RDWEN_cmp_lt0000_cy<7>)
+     LUT6:I5->O            1   0.086   0.000  SRAM_DATA_CMPR_1/RDWEN_rstpot1 (SRAM_DATA_CMPR_1/RDWEN_rstpot)
+     FD:D                     -0.022          SRAM_DATA_CMPR_1/RDWEN
+    ----------------------------------------
+    Total                      3.296ns (2.139ns logic, 1.157ns route)
+                                       (64.9% logic, 35.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'data_clk_pi'
+  Clock period: 3.042ns (frequency: 328.688MHz)
+  Total number of paths / destination ports: 10788 / 213
+-------------------------------------------------------------------------
+Delay:               3.042ns (Levels of Logic = 15)
+  Source:            SRAM_DATA_GEN_1/data_count_0 (FF)
+  Destination:       SRAM_DATA_GEN_1/sram_address_holder_end_14 (FF)
+  Source Clock:      data_clk_pi rising
+  Destination Clock: data_clk_pi rising
+
+  Data Path: SRAM_DATA_GEN_1/data_count_0 to SRAM_DATA_GEN_1/sram_address_holder_end_14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              6   0.396   0.787  SRAM_DATA_GEN_1/data_count_0 (SRAM_DATA_GEN_1/data_count_0)
+     LUT5:I0->O            1   0.086   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_lut<0> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_lut<0>)
+     MUXCY:S->O            1   0.305   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<0> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<1> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<2> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<3> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<4> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<5> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<6> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<7> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<8> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<9> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<10> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<11> (SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<11>)
+     MUXCY:CI->O           1   0.222   0.436  SRAM_DATA_GEN_1/Mcompar_sram_address_holder_start_14_cmp_le0000_cy<12> (SRAM_DATA_GEN_1/sram_address_holder_start_14_cmp_le0000)
+     LUT2:I0->O           15   0.086   0.289  SRAM_DATA_GEN_1/sram_address_holder_start_14_and00001 (SRAM_DATA_GEN_1/sram_address_holder_start_14_and0000)
+     FDRE:CE                   0.185          SRAM_DATA_GEN_1/sram_address_holder_start_0
+    ----------------------------------------
+    Total                      3.042ns (1.530ns logic, 1.512ns route)
+                                       (50.3% logic, 49.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'sram_data_out_clk_pi'
+  Clock period: 2.449ns (frequency: 408.347MHz)
+  Total number of paths / destination ports: 124 / 17
+-------------------------------------------------------------------------
+Delay:               2.449ns (Levels of Logic = 3)
+  Source:            SRAM_DATA_CMPR_1/output_counter_sram_3 (FF)
+  Destination:       SRAM_DATA_CMPR_1/sram_data_pi (FF)
+  Source Clock:      sram_data_out_clk_pi rising
+  Destination Clock: sram_data_out_clk_pi rising
+
+  Data Path: SRAM_DATA_CMPR_1/output_counter_sram_3 to SRAM_DATA_CMPR_1/sram_data_pi
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             10   0.396   0.885  SRAM_DATA_CMPR_1/output_counter_sram_3 (SRAM_DATA_CMPR_1/output_counter_sram_3)
+     LUT6:I0->O            1   0.086   0.549  SRAM_DATA_CMPR_1/sram_data_pi_mux0000139 (SRAM_DATA_CMPR_1/sram_data_pi_mux0000139)
+     LUT6:I3->O            1   0.086   0.361  SRAM_DATA_CMPR_1/sram_data_pi_mux00001689_SW0 (N122)
+     LUT6:I5->O            1   0.086   0.000  SRAM_DATA_CMPR_1/sram_data_pi_mux00001689 (SRAM_DATA_CMPR_1/sram_data_pi_mux0000)
+     FDR:D                    -0.022          SRAM_DATA_CMPR_1/sram_data_pi
+    ----------------------------------------
+    Total                      2.449ns (0.654ns logic, 1.795ns route)
+                                       (26.7% logic, 73.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'O_NOR'
+  Clock period: 2.134ns (frequency: 468.560MHz)
+  Total number of paths / destination ports: 528 / 32
+-------------------------------------------------------------------------
+Delay:               2.134ns (Levels of Logic = 33)
+  Source:            RO_FREQ_COUNTER_1/NOR_COUNT_0 (FF)
+  Destination:       RO_FREQ_COUNTER_1/NOR_COUNT_31 (FF)
+  Source Clock:      O_NOR rising
+  Destination Clock: O_NOR rising
+
+  Data Path: RO_FREQ_COUNTER_1/NOR_COUNT_0 to RO_FREQ_COUNTER_1/NOR_COUNT_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.396   0.239  RO_FREQ_COUNTER_1/NOR_COUNT_0 (RO_FREQ_COUNTER_1/NOR_COUNT_0)
+     INV:I->O              1   0.212   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_lut<0>_INV_0 (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_lut<0>)
+     MUXCY:S->O            1   0.305   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<0> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<1> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<2> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<3> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<4> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<5> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<6> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<7> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<8> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<9> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<10> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<11> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<12> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<13> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<14> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<15> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<16> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<17> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<18> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<19> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<20> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<21> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<22> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<23> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<24> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<24>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<25> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<25>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<26> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<26>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<27> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<27>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<28> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<28>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<29> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<29>)
+     MUXCY:CI->O           0   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<30> (RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_cy<30>)
+     XORCY:CI->O           1   0.300   0.000  RO_FREQ_COUNTER_1/Mcount_NOR_COUNT_xor<31> (RO_FREQ_COUNTER_1/Result<31>2)
+     FDRE:D                   -0.022          RO_FREQ_COUNTER_1/NOR_COUNT_31
+    ----------------------------------------
+    Total                      2.134ns (1.896ns logic, 0.239ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'O_NAND'
+  Clock period: 2.134ns (frequency: 468.560MHz)
+  Total number of paths / destination ports: 528 / 32
+-------------------------------------------------------------------------
+Delay:               2.134ns (Levels of Logic = 33)
+  Source:            RO_FREQ_COUNTER_1/NAND_COUNT_0 (FF)
+  Destination:       RO_FREQ_COUNTER_1/NAND_COUNT_31 (FF)
+  Source Clock:      O_NAND rising
+  Destination Clock: O_NAND rising
+
+  Data Path: RO_FREQ_COUNTER_1/NAND_COUNT_0 to RO_FREQ_COUNTER_1/NAND_COUNT_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.396   0.239  RO_FREQ_COUNTER_1/NAND_COUNT_0 (RO_FREQ_COUNTER_1/NAND_COUNT_0)
+     INV:I->O              1   0.212   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_lut<0>_INV_0 (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_lut<0>)
+     MUXCY:S->O            1   0.305   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<0> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<1> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<2> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<3> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<4> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<5> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<6> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<7> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<8> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<9> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<10> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<11> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<12> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<13> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<14> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<15> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<16> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<17> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<18> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<19> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<20> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<21> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<22> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<23> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<24> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<24>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<25> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<25>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<26> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<26>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<27> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<27>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<28> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<28>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<29> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<29>)
+     MUXCY:CI->O           0   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<30> (RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_cy<30>)
+     XORCY:CI->O           1   0.300   0.000  RO_FREQ_COUNTER_1/Mcount_NAND_COUNT_xor<31> (RO_FREQ_COUNTER_1/Result<31>1)
+     FDRE:D                   -0.022          RO_FREQ_COUNTER_1/NAND_COUNT_31
+    ----------------------------------------
+    Total                      2.134ns (1.896ns logic, 0.239ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'O_INV'
+  Clock period: 2.134ns (frequency: 468.560MHz)
+  Total number of paths / destination ports: 528 / 32
+-------------------------------------------------------------------------
+Delay:               2.134ns (Levels of Logic = 33)
+  Source:            RO_FREQ_COUNTER_1/INV_COUNT_0 (FF)
+  Destination:       RO_FREQ_COUNTER_1/INV_COUNT_31 (FF)
+  Source Clock:      O_INV rising
+  Destination Clock: O_INV rising
+
+  Data Path: RO_FREQ_COUNTER_1/INV_COUNT_0 to RO_FREQ_COUNTER_1/INV_COUNT_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.396   0.239  RO_FREQ_COUNTER_1/INV_COUNT_0 (RO_FREQ_COUNTER_1/INV_COUNT_0)
+     INV:I->O              1   0.212   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_lut<0>_INV_0 (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_lut<0>)
+     MUXCY:S->O            1   0.305   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<0> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<1> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<2> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<3> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<4> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<5> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<6> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<7> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<8> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<9> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<10> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<11> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<12> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<13> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<14> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<15> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<16> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<17> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<18> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<19> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<20> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<21> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<22> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<23> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<24> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<24>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<25> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<25>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<26> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<26>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<27> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<27>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<28> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<28>)
+     MUXCY:CI->O           1   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<29> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<29>)
+     MUXCY:CI->O           0   0.023   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<30> (RO_FREQ_COUNTER_1/Mcount_INV_COUNT_cy<30>)
+     XORCY:CI->O           1   0.300   0.000  RO_FREQ_COUNTER_1/Mcount_INV_COUNT_xor<31> (RO_FREQ_COUNTER_1/Result<31>)
+     FDRE:D                   -0.022          RO_FREQ_COUNTER_1/INV_COUNT_31
+    ----------------------------------------
+    Total                      2.134ns (1.896ns logic, 0.239ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'data_clk_RO_pi'
+  Clock period: 2.861ns (frequency: 349.496MHz)
+  Total number of paths / destination ports: 194 / 21
+-------------------------------------------------------------------------
+Delay:               2.861ns (Levels of Logic = 4)
+  Source:            RO_DATA_OUTPUT_1/output_count_2 (FF)
+  Destination:       RO_DATA_OUTPUT_1/DATA_OUT (FF)
+  Source Clock:      data_clk_RO_pi rising
+  Destination Clock: data_clk_RO_pi rising
+
+  Data Path: RO_DATA_OUTPUT_1/output_count_2 to RO_DATA_OUTPUT_1/DATA_OUT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             27   0.396   0.525  RO_DATA_OUTPUT_1/output_count_2 (RO_DATA_OUTPUT_1/output_count_2)
+     LUT6:I4->O            1   0.086   0.436  RO_DATA_OUTPUT_1/DATA_OUT_mux000011765_SW1 (N93)
+     LUT4:I2->O            1   0.086   0.611  RO_DATA_OUTPUT_1/DATA_OUT_mux000011765 (RO_DATA_OUTPUT_1/DATA_OUT_mux000011765)
+     LUT6:I2->O            1   0.086   0.549  RO_DATA_OUTPUT_1/DATA_OUT_mux000011986 (RO_DATA_OUTPUT_1/DATA_OUT_mux000011986)
+     LUT6:I3->O            1   0.086   0.000  RO_DATA_OUTPUT_1/DATA_OUT_mux000012034 (RO_DATA_OUTPUT_1/DATA_OUT_mux0000)
+     FDR:D                    -0.022          RO_DATA_OUTPUT_1/DATA_OUT
+    ----------------------------------------
+    Total                      2.861ns (0.740ns logic, 2.121ns route)
+                                       (25.9% logic, 74.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'data_clk_dff_pi'
+  Clock period: 2.861ns (frequency: 349.549MHz)
+  Total number of paths / destination ports: 1757 / 51
+-------------------------------------------------------------------------
+Delay:               2.861ns (Levels of Logic = 4)
+  Source:            DFF_DATA_OUTPUT_1/output_count_9 (FF)
+  Destination:       DFF_DATA_OUTPUT_1/chain_select_31 (FF)
+  Source Clock:      data_clk_dff_pi rising
+  Destination Clock: data_clk_dff_pi rising
+
+  Data Path: DFF_DATA_OUTPUT_1/output_count_9 to DFF_DATA_OUTPUT_1/chain_select_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.396   0.854  DFF_DATA_OUTPUT_1/output_count_9 (DFF_DATA_OUTPUT_1/output_count_9)
+     LUT6:I0->O           73   0.086   0.456  DFF_DATA_OUTPUT_1/chain_select_and00001 (DFF_DATA_OUTPUT_1/chain_select_and0000)
+     LUT5:I4->O           32   0.086   0.450  DFF_DATA_OUTPUT_1/chain_select_mux0000<0>11 (DFF_DATA_OUTPUT_1/N01)
+     LUT6:I5->O            1   0.086   0.361  DFF_DATA_OUTPUT_1/chain_select_mux0000<9>24 (DFF_DATA_OUTPUT_1/chain_select_mux0000<9>24)
+     LUT5:I4->O            1   0.086   0.000  DFF_DATA_OUTPUT_1/chain_select_9_rstpot (DFF_DATA_OUTPUT_1/chain_select_9_rstpot)
+     FD:D                     -0.022          DFF_DATA_OUTPUT_1/chain_select_9
+    ----------------------------------------
+    Total                      2.861ns (0.740ns logic, 2.121ns route)
+                                       (25.9% logic, 74.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_GEN_TOP/CLK_GEN/CLKOUT0_BUF'
+  Clock period: 2.458ns (frequency: 406.868MHz)
+  Total number of paths / destination ports: 243 / 10
+-------------------------------------------------------------------------
+Delay:               2.458ns (Levels of Logic = 10)
+  Source:            CLK_GEN_TOP/cnt_100k_7 (FF)
+  Destination:       CLK_GEN_TOP/cnt_100k_7 (FF)
+  Source Clock:      CLK_GEN_TOP/CLK_GEN/CLKOUT0_BUF rising
+  Destination Clock: CLK_GEN_TOP/CLK_GEN/CLKOUT0_BUF rising
+
+  Data Path: CLK_GEN_TOP/cnt_100k_7 to CLK_GEN_TOP/cnt_100k_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.396   0.772  CLK_GEN_TOP/cnt_100k_7 (CLK_GEN_TOP/cnt_100k_7)
+     LUT5:I0->O            5   0.086   0.377  CLK_GEN_TOP/clk_100k_in_cmp_eq000011 (CLK_GEN_TOP/N01)
+     LUT4:I3->O            1   0.086   0.000  CLK_GEN_TOP/Mcount_cnt_100k_lut<0> (CLK_GEN_TOP/Mcount_cnt_100k_lut<0>)
+     MUXCY:S->O            1   0.305   0.000  CLK_GEN_TOP/Mcount_cnt_100k_cy<0> (CLK_GEN_TOP/Mcount_cnt_100k_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  CLK_GEN_TOP/Mcount_cnt_100k_cy<1> (CLK_GEN_TOP/Mcount_cnt_100k_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  CLK_GEN_TOP/Mcount_cnt_100k_cy<2> (CLK_GEN_TOP/Mcount_cnt_100k_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  CLK_GEN_TOP/Mcount_cnt_100k_cy<3> (CLK_GEN_TOP/Mcount_cnt_100k_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  CLK_GEN_TOP/Mcount_cnt_100k_cy<4> (CLK_GEN_TOP/Mcount_cnt_100k_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  CLK_GEN_TOP/Mcount_cnt_100k_cy<5> (CLK_GEN_TOP/Mcount_cnt_100k_cy<5>)
+     MUXCY:CI->O           0   0.023   0.000  CLK_GEN_TOP/Mcount_cnt_100k_cy<6> (CLK_GEN_TOP/Mcount_cnt_100k_cy<6>)
+     XORCY:CI->O           1   0.300   0.000  CLK_GEN_TOP/Mcount_cnt_100k_xor<7> (CLK_GEN_TOP/Mcount_cnt_100k7)
+     FDC:D                    -0.022          CLK_GEN_TOP/cnt_100k_7
+    ----------------------------------------
+    Total                      2.458ns (1.309ns logic, 1.148ns route)
+                                       (53.3% logic, 46.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_GEN_TOP/clk_2m'
+  Clock period: 1.110ns (frequency: 900.576MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.110ns (Levels of Logic = 0)
+  Source:            CLK_GEN_TOP/clk_1m (FF)
+  Destination:       CLK_GEN_TOP/clk_1m (FF)
+  Source Clock:      CLK_GEN_TOP/clk_2m rising
+  Destination Clock: CLK_GEN_TOP/clk_2m rising
+
+  Data Path: CLK_GEN_TOP/clk_1m to CLK_GEN_TOP/clk_1m
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.396   0.246  CLK_GEN_TOP/clk_1m (CLK_GEN_TOP/clk_1m1)
+     FDR:R                     0.468          CLK_GEN_TOP/clk_1m
+    ----------------------------------------
+    Total                      1.110ns (0.864ns logic, 0.246ns route)
+                                       (77.8% logic, 22.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_GEN_TOP/clk_1m1'
+  Total number of paths / destination ports: 1273 / 160
+-------------------------------------------------------------------------
+Offset:              4.674ns (Levels of Logic = 20)
+  Source:            SRAM_DATA_OUT<6> (PAD)
+  Destination:       SRAM_DATA_CMPR_1/SRAM_ADDRESS_14 (FF)
+  Destination Clock: CLK_GEN_TOP/clk_1m1 rising
+
+  Data Path: SRAM_DATA_OUT<6> to SRAM_DATA_CMPR_1/SRAM_ADDRESS_14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.694   0.557  SRAM_DATA_OUT_6_IBUF (SRAM_DATA_OUT_6_IBUF)
+     LUT4:I1->O            1   0.086   0.361  SRAM_DATA_CMPR_1/RDWEN_and000081 (SRAM_DATA_CMPR_1/RDWEN_and0000_bdd12)
+     LUT5:I4->O            1   0.086   0.361  SRAM_DATA_CMPR_1/RDWEN_and000061 (SRAM_DATA_CMPR_1/RDWEN_and0000_bdd8)
+     LUT5:I4->O            1   0.086   0.361  SRAM_DATA_CMPR_1/RDWEN_and000041 (SRAM_DATA_CMPR_1/RDWEN_and0000_bdd4)
+     LUT5:I4->O           16   0.086   0.607  SRAM_DATA_CMPR_1/RDWEN_and000021 (SRAM_DATA_CMPR_1/RDWEN_and0000_bdd0)
+     LUT4:I1->O            1   0.086   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_lut<2> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_lut<2>)
+     MUXCY:S->O            1   0.305   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<2> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<3> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<4> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<5> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<6> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<7> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<8> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<9> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<10> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<11> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<12> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<12>)
+     MUXCY:CI->O           0   0.023   0.000  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<13> (SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_cy<13>)
+     XORCY:CI->O           1   0.300   0.361  SRAM_DATA_CMPR_1/Maddsub_SRAM_ADDRESS_addsub0000_xor<14> (SRAM_DATA_CMPR_1/SRAM_ADDRESS_addsub0000<14>)
+     LUT4:I3->O            1   0.086   0.000  SRAM_DATA_CMPR_1/SRAM_ADDRESS_mux0000<14>1 (SRAM_DATA_CMPR_1/SRAM_ADDRESS_mux0000<14>)
+     FDRE:D                   -0.022          SRAM_DATA_CMPR_1/SRAM_ADDRESS_14
+    ----------------------------------------
+    Total                      4.674ns (2.065ns logic, 2.608ns route)
+                                       (44.2% logic, 55.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'data_clk_pi'
+  Total number of paths / destination ports: 143 / 143
+-------------------------------------------------------------------------
+Offset:              2.564ns (Levels of Logic = 3)
+  Source:            reset_sram_RO_pi (PAD)
+  Destination:       SRAM_DATA_GEN_1/SRAM_ADDRESS_END_14 (FF)
+  Destination Clock: data_clk_pi rising
+
+  Data Path: reset_sram_RO_pi to SRAM_DATA_GEN_1/SRAM_ADDRESS_END_14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            74   0.694   0.863  reset_sram_RO_pi_IBUF (reset_sram_RO_pi_IBUF)
+     LUT6:I1->O            1   0.086   0.000  SRAM_DATA_GEN_1/SRAM_DATA_IN_not0001_wg_lut<10> (SRAM_DATA_GEN_1/SRAM_DATA_IN_not0001_wg_lut<10>)
+     MUXCY:S->O           38   0.411   0.325  SRAM_DATA_GEN_1/SRAM_DATA_IN_not0001_wg_cy<10> (SRAM_DATA_GEN_1/SRAM_DATA_IN_not0001)
+     FDE:CE                    0.185          SRAM_DATA_GEN_1/SRAM_DATA_IN_0
+    ----------------------------------------
+    Total                      2.564ns (1.376ns logic, 1.188ns route)
+                                       (53.7% logic, 46.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sram_data_out_clk_pi'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              2.044ns (Levels of Logic = 2)
+  Source:            reset_sram_RO_pi (PAD)
+  Destination:       SRAM_DATA_CMPR_1/sram_data_pi (FF)
+  Destination Clock: sram_data_out_clk_pi rising
+
+  Data Path: reset_sram_RO_pi to SRAM_DATA_CMPR_1/sram_data_pi
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            74   0.694   0.330  reset_sram_RO_pi_IBUF (reset_sram_RO_pi_IBUF)
+     INV:I->O            158   0.212   0.341  reset1_INV_0 (DFF_DATA_OUTPUT_1/reset_inv)
+     FDR:R                     0.468          SRAM_DATA_CMPR_1/sram_data_pi
+    ----------------------------------------
+    Total                      2.044ns (1.374ns logic, 0.670ns route)
+                                       (67.2% logic, 32.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'O_NOR'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              1.953ns (Levels of Logic = 2)
+  Source:            read_data_RO_pi (PAD)
+  Destination:       RO_FREQ_COUNTER_1/NOR_COUNT_31 (FF)
+  Destination Clock: O_NOR rising
+
+  Data Path: read_data_RO_pi to RO_FREQ_COUNTER_1/NOR_COUNT_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.694   0.243  read_data_RO_pi_IBUF (read_data_RO_pi_IBUF)
+     INV:I->O            120   0.212   0.336  RO_FREQ_COUNTER_1/read_data_inv1_INV_0 (RO_FREQ_COUNTER_1/read_data_inv)
+     FDRE:R                    0.468          RO_FREQ_COUNTER_1/NOR_COUNT_0
+    ----------------------------------------
+    Total                      1.953ns (1.374ns logic, 0.579ns route)
+                                       (70.4% logic, 29.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'O_NAND'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              1.953ns (Levels of Logic = 2)
+  Source:            read_data_RO_pi (PAD)
+  Destination:       RO_FREQ_COUNTER_1/NAND_COUNT_31 (FF)
+  Destination Clock: O_NAND rising
+
+  Data Path: read_data_RO_pi to RO_FREQ_COUNTER_1/NAND_COUNT_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.694   0.243  read_data_RO_pi_IBUF (read_data_RO_pi_IBUF)
+     INV:I->O            120   0.212   0.336  RO_FREQ_COUNTER_1/read_data_inv1_INV_0 (RO_FREQ_COUNTER_1/read_data_inv)
+     FDRE:R                    0.468          RO_FREQ_COUNTER_1/NAND_COUNT_0
+    ----------------------------------------
+    Total                      1.953ns (1.374ns logic, 0.579ns route)
+                                       (70.4% logic, 29.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'O_INV'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              1.953ns (Levels of Logic = 2)
+  Source:            read_data_RO_pi (PAD)
+  Destination:       RO_FREQ_COUNTER_1/INV_COUNT_31 (FF)
+  Destination Clock: O_INV rising
+
+  Data Path: read_data_RO_pi to RO_FREQ_COUNTER_1/INV_COUNT_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.694   0.243  read_data_RO_pi_IBUF (read_data_RO_pi_IBUF)
+     INV:I->O            120   0.212   0.336  RO_FREQ_COUNTER_1/read_data_inv1_INV_0 (RO_FREQ_COUNTER_1/read_data_inv)
+     FDRE:R                    0.468          RO_FREQ_COUNTER_1/INV_COUNT_0
+    ----------------------------------------
+    Total                      1.953ns (1.374ns logic, 0.579ns route)
+                                       (70.4% logic, 29.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'data_clk_RO_pi'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              2.044ns (Levels of Logic = 2)
+  Source:            reset_sram_RO_pi (PAD)
+  Destination:       RO_DATA_OUTPUT_1/C_1 (FF)
+  Destination Clock: data_clk_RO_pi rising
+
+  Data Path: reset_sram_RO_pi to RO_DATA_OUTPUT_1/C_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            74   0.694   0.330  reset_sram_RO_pi_IBUF (reset_sram_RO_pi_IBUF)
+     INV:I->O            158   0.212   0.341  reset1_INV_0 (DFF_DATA_OUTPUT_1/reset_inv)
+     FDR:R                     0.468          RO_DATA_OUTPUT_1/DATA_OUT
+    ----------------------------------------
+    Total                      2.044ns (1.374ns logic, 0.670ns route)
+                                       (67.2% logic, 32.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'data_clk_dff_pi'
+  Total number of paths / destination ports: 115 / 51
+-------------------------------------------------------------------------
+Offset:              2.626ns (Levels of Logic = 4)
+  Source:            reset_sram_RO_pi (PAD)
+  Destination:       DFF_DATA_OUTPUT_1/chain_select_31 (FF)
+  Destination Clock: data_clk_dff_pi rising
+
+  Data Path: reset_sram_RO_pi to DFF_DATA_OUTPUT_1/chain_select_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            74   0.694   0.863  reset_sram_RO_pi_IBUF (reset_sram_RO_pi_IBUF)
+     LUT5:I0->O           32   0.086   0.450  DFF_DATA_OUTPUT_1/chain_select_mux0000<0>11 (DFF_DATA_OUTPUT_1/N01)
+     LUT6:I5->O            1   0.086   0.361  DFF_DATA_OUTPUT_1/chain_select_mux0000<9>24 (DFF_DATA_OUTPUT_1/chain_select_mux0000<9>24)
+     LUT5:I4->O            1   0.086   0.000  DFF_DATA_OUTPUT_1/chain_select_9_rstpot (DFF_DATA_OUTPUT_1/chain_select_9_rstpot)
+     FD:D                     -0.022          DFF_DATA_OUTPUT_1/chain_select_9
+    ----------------------------------------
+    Total                      2.626ns (0.952ns logic, 1.674ns route)
+                                       (36.2% logic, 63.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_GEN_TOP/clk_1m1'
+  Total number of paths / destination ports: 17 / 17
+-------------------------------------------------------------------------
+Offset:              2.837ns (Levels of Logic = 1)
+  Source:            SRAM_DATA_CMPR_1/error (FF)
+  Destination:       sram_error_pi (PAD)
+  Source Clock:      CLK_GEN_TOP/clk_1m1 rising
+
+  Data Path: SRAM_DATA_CMPR_1/error to sram_error_pi
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            17   0.396   0.297  SRAM_DATA_CMPR_1/error (SRAM_DATA_CMPR_1/error)
+     OBUF:I->O                 2.144          sram_error_pi_OBUF (sram_error_pi)
+    ----------------------------------------
+    Total                      2.837ns (2.540ns logic, 0.297ns route)
+                                       (89.5% logic, 10.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_GEN_TOP/clk_2m'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              3.309ns (Levels of Logic = 2)
+  Source:            CLK_GEN_TOP/clk_1m (FF)
+  Destination:       SRAM_CLK (PAD)
+  Source Clock:      CLK_GEN_TOP/clk_2m rising
+
+  Data Path: CLK_GEN_TOP/clk_1m to SRAM_CLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.396   0.447  CLK_GEN_TOP/clk_1m (CLK_GEN_TOP/clk_1m1)
+     LUT2:I0->O            1   0.086   0.235  SRAM_CLK1 (SRAM_CLK_OBUF)
+     OBUF:I->O                 2.144          SRAM_CLK_OBUF (SRAM_CLK)
+    ----------------------------------------
+    Total                      3.309ns (2.626ns logic, 0.683ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'data_clk_dff_pi'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.775ns (Levels of Logic = 1)
+  Source:            DFF_DATA_OUTPUT_1/DATA_OUT (FF)
+  Destination:       data_out_dff_pi (PAD)
+  Source Clock:      data_clk_dff_pi rising
+
+  Data Path: DFF_DATA_OUTPUT_1/DATA_OUT to data_out_dff_pi
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.396   0.235  DFF_DATA_OUTPUT_1/DATA_OUT (DFF_DATA_OUTPUT_1/DATA_OUT)
+     OBUF:I->O                 2.144          data_out_dff_pi_OBUF (data_out_dff_pi)
+    ----------------------------------------
+    Total                      2.775ns (2.540ns logic, 0.235ns route)
+                                       (91.5% logic, 8.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_GEN_TOP/CLK_GEN/CLKOUT0_BUF'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.779ns (Levels of Logic = 1)
+  Source:            CLK_GEN_TOP/clk_100k_in (FF)
+  Destination:       CLK_100K (PAD)
+  Source Clock:      CLK_GEN_TOP/CLK_GEN/CLKOUT0_BUF rising
+
+  Data Path: CLK_GEN_TOP/clk_100k_in to CLK_100K
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.396   0.239  CLK_GEN_TOP/clk_100k_in (CLK_GEN_TOP/clk_100k_in)
+     OBUF:I->O                 2.144          CLK_100K_OBUF (CLK_100K)
+    ----------------------------------------
+    Total                      2.779ns (2.540ns logic, 0.239ns route)
+                                       (91.4% logic, 8.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'data_clk_RO_pi'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              2.783ns (Levels of Logic = 1)
+  Source:            RO_DATA_OUTPUT_1/C_0 (FF)
+  Destination:       C<0> (PAD)
+  Source Clock:      data_clk_RO_pi rising
+
+  Data Path: RO_DATA_OUTPUT_1/C_0 to C<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             3   0.396   0.243  RO_DATA_OUTPUT_1/C_0 (RO_DATA_OUTPUT_1/C_0)
+     OBUF:I->O                 2.144          C_0_OBUF (C<0>)
+    ----------------------------------------
+    Total                      2.783ns (2.540ns logic, 0.243ns route)
+                                       (91.3% logic, 8.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sram_data_out_clk_pi'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.775ns (Levels of Logic = 1)
+  Source:            SRAM_DATA_CMPR_1/sram_data_pi (FF)
+  Destination:       sram_data_out_pi (PAD)
+  Source Clock:      sram_data_out_clk_pi rising
+
+  Data Path: SRAM_DATA_CMPR_1/sram_data_pi to sram_data_out_pi
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.396   0.235  SRAM_DATA_CMPR_1/sram_data_pi (SRAM_DATA_CMPR_1/sram_data_pi)
+     OBUF:I->O                 2.144          sram_data_out_pi_OBUF (sram_data_out_pi)
+    ----------------------------------------
+    Total                      2.775ns (2.540ns logic, 0.235ns route)
+                                       (91.5% logic, 8.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'data_clk_pi'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              2.786ns (Levels of Logic = 1)
+  Source:            SRAM_DATA_GEN_1/SRAM_DATA_IN_7 (FF)
+  Destination:       SRAM_DATA_IN<7> (PAD)
+  Source Clock:      data_clk_pi rising
+
+  Data Path: SRAM_DATA_GEN_1/SRAM_DATA_IN_7 to SRAM_DATA_IN<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.396   0.246  SRAM_DATA_GEN_1/SRAM_DATA_IN_7 (SRAM_DATA_GEN_1/SRAM_DATA_IN_7)
+     OBUF:I->O                 2.144          SRAM_DATA_IN_7_OBUF (SRAM_DATA_IN<7>)
+    ----------------------------------------
+    Total                      2.786ns (2.540ns logic, 0.246ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Delay:               3.720ns (Levels of Logic = 3)
+  Source:            reset_sram_RO_pi (PAD)
+  Destination:       reset (PAD)
+
+  Data Path: reset_sram_RO_pi to reset
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            74   0.694   0.330  reset_sram_RO_pi_IBUF (reset_sram_RO_pi_IBUF)
+     INV:I->O            158   0.212   0.341  reset1_INV_0 (DFF_DATA_OUTPUT_1/reset_inv)
+     OBUF:I->O                 2.144          reset_OBUF (reset)
+    ----------------------------------------
+    Total                      3.720ns (3.050ns logic, 0.670ns route)
+                                       (82.0% logic, 18.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 145.00 secs
+Total CPU time to Xst completion: 54.21 secs
+ 
+--> 
+
+
+Total memory usage is 607072 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   49 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

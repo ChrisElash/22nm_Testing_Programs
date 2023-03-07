@@ -1,0 +1,124 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat May 01 19:56:51 2021
+# Process ID: 10972
+# Log file: C:/Users/Young Yang/Desktop/22nm_5_1_v1/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Young Yang/Desktop/22nm_5_1_v1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source {C:/Users/Young Yang/Desktop/22nm_5_1_v1/pa.fromNetlist.tcl}
+# create_project -name SE_UART_TEST -dir "C:/Users/Young Yang/Desktop/22nm_5_1_v1/planAhead_run_1" -part xc5vlx50ff1153-3
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Young Yang/Desktop/22nm_5_1_v1} {ipcore_dir} }
+# add_files [list {ipcore_dir/FIFO.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/R_FIFO.ncf}] -fileset [get_property constrset [current_run]]
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "DFF_TEST_UCF.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf' to fileset 'constrs_1'
+# add_files [list {DFF_TEST_UCF.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc5vlx50ff1153-3
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design DFF_TEST_NEW_TOP.ngc ...
+WARNING:NetListWriters:298 - No output is written to DFF_TEST_NEW_TOP.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file DFF_TEST_NEW_TOP.edif ...
+ngc2edif: Total memory usage is 4321968 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/SE_UART_TEST.data/cache/DFF_TEST_NEW_TOP_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/SE_UART_TEST.data/cache/DFF_TEST_NEW_TOP_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design FIFO.ngc ...
+WARNING:NetListWriters:298 - No output is written to FIFO.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file FIFO.edif ...
+ngc2edif: Total memory usage is 4313776 kilobytes
+
+Reading core file 'C:/Users/Young Yang/Desktop/22nm_5_1_v1/ipcore_dir/FIFO.ngc' for (cell view 'FIFO', library 'DFF_TEST_NEW_TOP_lib', file 'DFF_TEST_NEW_TOP.ngc')
+Parsing EDIF File [./planAhead_run_1/SE_UART_TEST.data/cache/FIFO_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/SE_UART_TEST.data/cache/FIFO_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design R_FIFO.ngc ...
+WARNING:NetListWriters:298 - No output is written to R_FIFO.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg<2 : 0> on block
+   R_FIFO is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file R_FIFO.edif ...
+ngc2edif: Total memory usage is 4313776 kilobytes
+
+Reading core file 'C:/Users/Young Yang/Desktop/22nm_5_1_v1/ipcore_dir/R_FIFO.ngc' for (cell view 'R_FIFO', library 'DFF_TEST_NEW_TOP_lib', file 'DFF_TEST_NEW_TOP.ngc')
+Parsing EDIF File [./planAhead_run_1/SE_UART_TEST.data/cache/R_FIFO_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/SE_UART_TEST.data/cache/R_FIFO_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+WARNING: [Netlist 29-43] Netlist 'DFF_TEST_NEW_TOP' is not ideal for floorplanning, since the cellview 'DFF_TEST_NEW_TOP' defined in file 'DFF_TEST_NEW_TOP.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Device 21-21] Reading bus macro file C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/pr_bus_macros.xml
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex5/virtex5lx/xc5vlx50/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex5/virtex5lx/xc5vlx50/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex5/virtex5lx/xc5vlx50/ff1153/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex5/virtex5lx/xc5vlx50/ff1153/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/drc.xml
+Parsing UCF File [C:/Users/Young Yang/Desktop/22nm_5_1_v1/ipcore_dir/FIFO.ncf]
+Finished Parsing UCF File [C:/Users/Young Yang/Desktop/22nm_5_1_v1/ipcore_dir/FIFO.ncf]
+Parsing UCF File [C:/Users/Young Yang/Desktop/22nm_5_1_v1/ipcore_dir/R_FIFO.ncf]
+Finished Parsing UCF File [C:/Users/Young Yang/Desktop/22nm_5_1_v1/ipcore_dir/R_FIFO.ncf]
+Parsing UCF File [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DFFQ1a' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:11]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DFFQ1b' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:12]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ0' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:20]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ1' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:22]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ2' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:24]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ3' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:26]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ4' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:28]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ5' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:30]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DFFQ1a' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:55]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DFFQ1b' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:56]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ0' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:63]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ1' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:64]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ2' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:65]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ3' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:66]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ4' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:67]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'DB_DICEQ5' [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf:68]
+Finished Parsing UCF File [C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_UCF.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 3054ec2c
+link_design: Time (s): elapsed = 00:00:15 . Memory (MB): peak = 689.840 ; gain = 254.219
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/Young Yang/Desktop/22nm_5_1_v1\planAhead_pid10972.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sat May 01 19:58:55 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

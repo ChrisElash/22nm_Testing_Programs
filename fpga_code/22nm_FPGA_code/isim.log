@@ -1,0 +1,13 @@
+ISim log file
+Running: C:\Users\Young Yang\Desktop\22nm_5_6_v1_11_00\DFF_TEST_NEW_TOP_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# restart
+# run all
+Simulator is doing circuit initialization process.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Finished circuit initialization process.
+Stopped at time : 1104600 ns : File "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP_tb.v" Line 66

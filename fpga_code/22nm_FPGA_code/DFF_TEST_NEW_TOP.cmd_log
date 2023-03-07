@@ -1,0 +1,552 @@
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_1_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_05_06/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_05_06/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_05_06/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_05_06/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v2/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v3/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v3/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v3/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v3/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v4/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v4/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v4/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v4/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v5/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Young Yang/Desktop/22nm_5_14_v9/DFF_TEST_NEW_TOP.xst" -ofn "C:/Users/Young Yang/Desktop/22nm_5_14_v9/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 "DFF_TEST_NEW_TOP.ngc" DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "/home/chris/Desktop/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+xst -intstyle ise -ifn "/home/chris/Desktop/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "/home/chris/Desktop/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "/home/chris/Desktop/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 
+xst -intstyle ise -ifn "/home/chris/Desktop/new_data_line_for_dff/static_test_new/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.xst" -ofn "/home/chris/Desktop/new_data_line_for_dff/static_test_new/22nm_DFF_1m_all1/DFF_TEST_NEW_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DFF_TEST_UCF.ucf -p xc5vlx50-ff1153-3 DFF_TEST_NEW_TOP.ngc DFF_TEST_NEW_TOP.ngd  
+map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd DFF_TEST_NEW_TOP.pcf 
+par -w -intstyle ise -ol high -mt off DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ncd DFF_TEST_NEW_TOP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DFF_TEST_NEW_TOP.twx DFF_TEST_NEW_TOP.ncd -o DFF_TEST_NEW_TOP.twr DFF_TEST_NEW_TOP.pcf -ucf DFF_TEST_UCF.ucf 
+bitgen -intstyle ise -f DFF_TEST_NEW_TOP.ut DFF_TEST_NEW_TOP.ncd 

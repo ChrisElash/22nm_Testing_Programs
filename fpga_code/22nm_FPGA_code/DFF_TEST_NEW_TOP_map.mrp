@@ -1,0 +1,355 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'DFF_TEST_NEW_TOP'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vlx50-ff1153-3 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr
+off -lc off -power off -o DFF_TEST_NEW_TOP_map.ncd DFF_TEST_NEW_TOP.ngd
+DFF_TEST_NEW_TOP.pcf 
+Target Device  : xc5vlx50
+Target Package : ff1153
+Target Speed   : -3
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Thu Jun  2 10:58:25 2022
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    8
+Slice Logic Utilization:
+  Number of Slice Registers:                 1,431 out of  28,800    4%
+    Number used as Flip Flops:               1,431
+  Number of Slice LUTs:                      1,286 out of  28,800    4%
+    Number used as logic:                    1,261 out of  28,800    4%
+      Number using O6 output only:             511
+      Number using O5 output only:             636
+      Number using O5 and O6:                  114
+    Number used as exclusive route-thru:        25
+  Number of route-thrus:                       664
+    Number using O6 output only:               660
+    Number using O5 output only:                 3
+    Number using O5 and O6:                      1
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   557 out of   7,200    7%
+  Number of LUT Flip Flop pairs used:        1,817
+    Number with an unused Flip Flop:           386 out of   1,817   21%
+    Number with an unused LUT:                 531 out of   1,817   29%
+    Number of fully used LUT-FF pairs:         900 out of   1,817   49%
+    Number of unique control sets:              39
+    Number of slice register sites lost
+      to control set restrictions:              25 out of  28,800    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        78 out of     560   13%
+    Number of LOCed IOBs:                       78 out of      78  100%
+
+Specific Feature Utilization:
+  Number of BUFG/BUFGCTRLs:                     10 out of      32   31%
+    Number used as BUFGs:                       10
+  Number of PLL_ADVs:                            1 out of       6   16%
+
+Average Fanout of Non-Clock Nets:                3.04
+
+Peak Memory Usage:  840 MB
+Total REAL time to MAP completion:  2 mins 21 secs 
+Total CPU time to MAP completion:   1 mins 29 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Place:644 - A clock IOB clock component is not placed at an optimal
+   clock IOB site. The clock IOB component <O_INV> is placed at site <AE34>. The
+   clock IO site can use the fast path between the IO and the Clock buffer/GCLK
+   if the IOB is placed in the master Clock IOB Site. This is normally an ERROR
+   but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN <O_INV.PAD>
+   allowing your design to continue. This constraint disables all clock placer
+   rules related to the specified COMP.PIN. The use of this override is highly
+   discouraged as it may lead to very poor timing results. It is recommended
+   that this error condition be corrected in the design.
+WARNING:Place:644 - A clock IOB clock component is not placed at an optimal
+   clock IOB site. The clock IOB component <O_NOR> is placed at site <AE32>. The
+   clock IO site can use the fast path between the IO and the Clock buffer/GCLK
+   if the IOB is placed in the master Clock IOB Site. This is normally an ERROR
+   but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN <O_NOR.PAD>
+   allowing your design to continue. This constraint disables all clock placer
+   rules related to the specified COMP.PIN. The use of this override is highly
+   discouraged as it may lead to very poor timing results. It is recommended
+   that this error condition be corrected in the design.
+WARNING:Place:644 - A clock IOB clock component is not placed at an optimal
+   clock IOB site. The clock IOB component <data_clk_RO_pi> is placed at site
+   <K13>. The clock IO site can use the fast path between the IO and the Clock
+   buffer/GCLK if the IOB is placed in the master Clock IOB Site. This is
+   normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on
+   COMP.PIN <data_clk_RO_pi.PAD> allowing your design to continue. This
+   constraint disables all clock placer rules related to the specified COMP.PIN.
+   The use of this override is highly discouraged as it may lead to very poor
+   timing results. It is recommended that this error condition be corrected in
+   the design.
+WARNING:Place:644 - A clock IOB clock component is not placed at an optimal
+   clock IOB site. The clock IOB component <save_data_dff_pi> is placed at site
+   <L20>. The clock IO site can use the fast path between the IO and the Clock
+   buffer/GCLK if the IOB is placed in the master Clock IOB Site. This is
+   normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on
+   COMP.PIN <save_data_dff_pi.PAD> allowing your design to continue. This
+   constraint disables all clock placer rules related to the specified COMP.PIN.
+   The use of this override is highly discouraged as it may lead to very poor
+   timing results. It is recommended that this error condition be corrected in
+   the design.
+WARNING:Place:644 - A clock IOB clock component is not placed at an optimal
+   clock IOB site. The clock IOB component <sram_data_out_clk_pi> is placed at
+   site <K19>. The clock IO site can use the fast path between the IO and the
+   Clock buffer/GCLK if the IOB is placed in the master Clock IOB Site. This is
+   normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on
+   COMP.PIN <sram_data_out_clk_pi.PAD> allowing your design to continue. This
+   constraint disables all clock placer rules related to the specified COMP.PIN.
+   The use of this override is highly discouraged as it may lead to very poor
+   timing results. It is recommended that this error condition be corrected in
+   the design.
+WARNING:Place:644 - A clock IOB clock component is not placed at an optimal
+   clock IOB site. The clock IOB component <O_NAND> is placed at site <AJ34>.
+   The clock IO site can use the fast path between the IO and the Clock
+   buffer/GCLK if the IOB is placed in the master Clock IOB Site. This is
+   normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on
+   COMP.PIN <O_NAND.PAD> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN. The use of
+   this override is highly discouraged as it may lead to very poor timing
+   results. It is recommended that this error condition be corrected in the
+   design.
+WARNING:Place:644 - A clock IOB clock component is not placed at an optimal
+   clock IOB site. The clock IOB component <data_clk_dff_pi> is placed at site
+   <L14>. The clock IO site can use the fast path between the IO and the Clock
+   buffer/GCLK if the IOB is placed in the master Clock IOB Site. This is
+   normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on
+   COMP.PIN <data_clk_dff_pi.PAD> allowing your design to continue. This
+   constraint disables all clock placer rules related to the specified COMP.PIN.
+   The use of this override is highly discouraged as it may lead to very poor
+   timing results. It is recommended that this error condition be corrected in
+   the design.
+WARNING:Place:644 - A clock IOB clock component is not placed at an optimal
+   clock IOB site. The clock IOB component <data_clk_pi> is placed at site
+   <K18>. The clock IO site can use the fast path between the IO and the Clock
+   buffer/GCLK if the IOB is placed in the master Clock IOB Site. This is
+   normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on
+   COMP.PIN <data_clk_pi.PAD> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN. The use of
+   this override is highly discouraged as it may lead to very poor timing
+   results. It is recommended that this error condition be corrected in the
+   design.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network start_uart has no load.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:856 - PLL_ADV CLK_GEN_TOP/CLK_GEN/PLL_ADV_INST CLKIN2 pin was
+   disconnected because a constant 1 is driving the CLKINSEL pin.
+INFO:MapLib:841 - Changing COMPENSATION attribute from SYSTEM_SYNCHRONOUS to
+   INTERNAL for PLL_ADV CLK_GEN_TOP/CLK_GEN/PLL_ADV_INST.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 0.950 Volts. (default - Range: 0.950 to
+   1.050 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   4 block(s) removed
+   2 block(s) optimized away
+   4 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "CLK_GEN_TOP/CLK_GEN/CLKOUT1_BUFG_INST" (CKBUF) removed.
+ The signal "CLK_GEN_TOP/CLK_GEN/CLKOUT1_BUF" is loadless and has been removed.
+Loadless block "CLK_GEN_TOP/CLK_GEN/CLKOUT2_BUFG_INST" (CKBUF) removed.
+ The signal "CLK_GEN_TOP/CLK_GEN/CLKOUT2_BUF" is loadless and has been removed.
+Loadless block "CLK_GEN_TOP/CLK_GEN/CLKOUT3_BUFG_INST" (CKBUF) removed.
+ The signal "CLK_GEN_TOP/CLK_GEN/CLKOUT3_BUF" is loadless and has been removed.
+Loadless block "CLK_GEN_TOP/CLK_GEN/CLKOUT4_BUFG_INST" (CKBUF) removed.
+ The signal "CLK_GEN_TOP/CLK_GEN/CLKOUT4_BUF" is loadless and has been removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| C<0>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| C<1>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| CLK_100K                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| CLK_50M                            | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| CLK_DUT_CHIP1                      | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| CLK_DUT_CHIP2                      | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| DAT_DUT_CHIP1                      | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| DAT_DUT_CHIP2                      | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| DAT_DUT_CHIP22                     | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| DB_DFFQ0                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ1                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ2                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ3                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ4                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ5                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ6                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ7                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ8                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ9                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ10                          | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ11                          | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ12                          | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| DB_DFFQ13                          | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| O_INV                              | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| O_NAND                             | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| O_NOR                              | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| RDWEN                              | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SAWL<0>                            | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SAWL<1>                            | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<0>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<1>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<2>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<3>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<4>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<5>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<6>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<7>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<8>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<9>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<10>                   | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<11>                   | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<12>                   | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<13>                   | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_ADDRESS<14>                   | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_CLK                           | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_DATA_IN<0>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_DATA_IN<1>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_DATA_IN<2>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_DATA_IN<3>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_DATA_IN<4>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_DATA_IN<5>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_DATA_IN<6>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_DATA_IN<7>                    | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| SRAM_DATA_OUT<0>                   | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| SRAM_DATA_OUT<1>                   | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| SRAM_DATA_OUT<2>                   | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| SRAM_DATA_OUT<3>                   | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| SRAM_DATA_OUT<4>                   | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| SRAM_DATA_OUT<5>                   | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| SRAM_DATA_OUT<6>                   | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| SRAM_DATA_OUT<7>                   | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| clear_error                        | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| clk_50_db                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| comp_out_db                        | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| data_clk_RO_pi                     | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| data_clk_dff_pi                    | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| data_clk_pi                        | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| data_out_RO_pi                     | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| data_out_dff_pi                    | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| data_pi                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| read_data_RO_pi                    | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| reset                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| reset_sram_RO_pi                   | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| save_data_dff_pi                   | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| sin_db                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| sram_data_out_clk_pi               | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| sram_data_out_pi                   | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| sram_error_pi                      | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

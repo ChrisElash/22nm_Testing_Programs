@@ -1,0 +1,59 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP_tb_isim_beh.exe -prj C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP_tb_beh.prj work.DFF_TEST_NEW_TOP_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/ipcore_dir/R_FIFO.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/ipcore_dir/FIFO.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/XMIT_FIFO.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/uart_rxd.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/uart_new/uart_txd.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/uart_new/baudrate_gen.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/RCV_FIFO.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/CLK_GEN.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/UART_TOP.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/REGISTER.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/LS_CNT.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DATA_RCV_FPGA.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DATA_GEN.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/CLK_GEN_TOP.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.v" into library work
+Analyzing Verilog file "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.v" Line 125: Port clk_10m is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP.v" Line 337: Port RST is not connected to this instance
+Completed static elaboration
+Compiling module IBUFG
+Compiling module BUFG
+Compiling module PLL_ADV(CLKFBOUT_MULT=8,CLKIN1_P...
+Compiling module CLK_GEN
+Compiling module CLK_GEN_TOP
+Compiling module DATA_GEN
+Compiling module LS_CNT
+Compiling module baudrate_gen_default
+Compiling module uart_txd
+Compiling module uart_rxd
+Compiling module fifo_generator_v9_3_bhv_ver_ss(C...
+Compiling module FIFO_GENERATOR_V9_3_CONV_VER(C_C...
+Compiling module FIFO_GENERATOR_V9_3(C_COMMON_CLO...
+Compiling module R_FIFO
+Compiling module RCV_FIFO
+Compiling module fifo_generator_v9_3_sync_stage(C...
+Compiling module fifo_generator_v9_3_bhv_ver_as(C...
+Compiling module FIFO_GENERATOR_V9_3_CONV_VER(C_C...
+Compiling module FIFO_GENERATOR_V9_3(C_DATA_COUNT...
+Compiling module FIFO
+Compiling module XMIT_FIFO
+Compiling module UART_TOP
+Compiling module DATA_RCV_FPGA
+Compiling module REGISTER
+Compiling module DFF_TEST_NEW_TOP
+Compiling module DFF_TEST_NEW_TOP_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 20 sub-compilation(s) to finish...
+Compiled 27 Verilog Units
+Built simulation executable C:/Users/Young Yang/Desktop/22nm_5_6_v1_11_00/DFF_TEST_NEW_TOP_tb_isim_beh.exe
+Fuse Memory Usage: 46884 KB
+Fuse CPU Usage: 765 ms

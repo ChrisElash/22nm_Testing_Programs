@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar 17 09:59:57 2021
+# Process ID: 14968
+# Current directory: E:/28nm/28nm_change_v1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14960 E:\28nm\28nm_change_v1\DFF_TEST_NEW_TOP_tb_isim_beh.wdb
+# Log file: E:/28nm/28nm_change_v1/vivado.log
+# Journal file: E:/28nm/28nm_change_v1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {E:\28nm\28nm_change_v1\DFF_TEST_NEW_TOP_tb_isim_beh.wdb}
